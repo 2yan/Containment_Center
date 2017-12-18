@@ -84,19 +84,26 @@ class Scythe():
     
 class Omega():
     
-    def averages(self ,trades):
+    def add_candle_time(self, trades):
         time_string = '%Y/%m/%d %H:%M'
         trades['candle_time'] = trades['time'].dt.strftime(time_string)
+        return trades
+    
+    def mean(self ,trades):
         trades['dollars'] = trades['price'] * trades['size']
         grouped = trades.groupby('candle_time')
-        final = pd.DataFrame(grouped['dollars'].sum()/grouped['size'].sum(), columns = ['Average'])
+        final = grouped['dollars'].sum()/grouped['size'].sum()
         return final
 
+    def median(self, trades):
+        trades['median']
         
 scythe = Scythe('ETH-USD')
 
 now = datetime.now()
-until = now - timedelta(seconds = 60 * 30)
+until = now - timedelta(seconds = 60 * 20)
 trades = scythe.get_trades_until(until)
 omega = Omega()
-averages = omega.averages(trades)
+trades = omega.add_candle_time(trades)
+final = pd.DataFrame(omega.mean(trades), columns = ['mean'])
+final['median'] = omega.
