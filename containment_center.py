@@ -101,9 +101,8 @@ class Omega():
 scythe = Scythe('ETH-USD')
 
 now = datetime.now()
-until = now - timedelta(seconds = 60 * 20)
+until = now - timedelta(seconds = 60 * 3)
 trades = scythe.get_trades_until(until)
 omega = Omega()
 trades = omega.add_candle_time(trades)
 final = pd.DataFrame(omega.mean(trades), columns = ['mean'])
-final['median'] = omega.
