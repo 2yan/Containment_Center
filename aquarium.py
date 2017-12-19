@@ -85,7 +85,7 @@ class Squid():
         while not done:
             with sqlite3.connect('fire.db', check_same_thread = False) as con:
                 try:
-                    data.to_sql(self.product_id, con, if_exists = 'replace')
+                    data.to_sql(self.product_id, con, if_exists = 'append')
                     con.commit()
                     done = True
                 except sqlite3.OperationalError:
