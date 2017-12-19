@@ -9,6 +9,8 @@ import os
 import shutil
 import sys
 
+
+
 def get_version():
     while True:
         try:
@@ -16,9 +18,8 @@ def get_version():
             with open(filename, 'r') as file:
                 current_version = float(file.read())
                 return current_version
-        except :
+        except:
             pass
-    
     
 def version_check():
     global version
@@ -28,7 +29,7 @@ def version_check():
     if current_version == version: 
         return 
     
-    
+
 class Squid():
     message = None
     url = None
@@ -111,6 +112,7 @@ class Squid():
                     done = True
                 except sqlite3.OperationalError:
                     pass
+        version_check()
                 
         
     def on_message(self, ws, message):
@@ -135,7 +137,8 @@ class Squid():
                                     on_open= self.on_open)
         
         self.ws.run_forever()
-        
+
+version = version_check()
 while True:
     try:
         squid = Squid('ETH-USD')
