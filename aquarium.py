@@ -6,7 +6,6 @@ from datetime import datetime
 import time
 import requests
 import os
-import shutil
 import sys
 
 
@@ -14,7 +13,7 @@ import sys
 def get_version():
     while True:
         try:
-            filename = shutil.copy('version.txt', 'version.temp')
+            filename = 'version.txt'
             with open(filename, 'r') as file:
                 current_version = float(file.read())
                 return current_version
