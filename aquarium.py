@@ -40,6 +40,8 @@ class Squid():
     logfile = 'log.txt'
     
     def __init__(self, product_id, url ='https://api.gdax.com' ,  ws_url = "wss://ws-feed.gdax.com"):
+        
+        version_check()
         self.product_id = product_id
         self.url = url
         self.ws_url = ws_url
@@ -138,7 +140,7 @@ class Squid():
         
         self.ws.run_forever()
 
-version = version_check()
+version = get_version()
 while True:
     try:
         squid = Squid('ETH-USD')
