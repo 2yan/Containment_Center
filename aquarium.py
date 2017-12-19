@@ -6,9 +6,30 @@ from datetime import datetime
 import time
 import requests
 import os
+import shutil
+import sys
 
+def get_version():
+    while True:
+        try:
+            filename = shutil.copy('version.txt', 'version.temp')
+            with open(filename, 'r') as file:
+                current_version = float(file.read())
+                return current_version
+        except :
+            pass
+    
+    
+def version_check():
+    global version
+    current_version = get_version()
+    if current_version > version:
+        os.execv(sys.executable, ['python'] + sys.argv)
+    if current_version == version: 
+        return 
+    
+    
 class Squid():
-
     message = None
     url = None
     product_id = None
