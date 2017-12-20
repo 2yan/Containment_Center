@@ -126,8 +126,10 @@ class Squid():
         if message['type'] == 'ticker':
             self.messages.append(message)
             
-        if len(self.messages) > 50:
+        if len(self.messages) > 1000:
             data = pd.DataFrame(self.messages)
+            data = data[['price', 'sequence', 'side', 'time', 'trade_id']]
+            data.set_index('trade_id', inplace = True)
             self.messages = []
             self.save_info(data)
         try:
