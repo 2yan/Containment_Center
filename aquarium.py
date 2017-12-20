@@ -98,8 +98,7 @@ class Squid():
         self.log(str(error))
         
     def log(self, message):
-        os.makedirs(os.path.dirname(self.logfile), exist_ok=True)
-        with open(self.filename, "w") as f:
+        with open(self.logfile, "w") as f:
             f.write(message)
         
         
@@ -140,7 +139,11 @@ class Squid():
         self.ws.run_forever()
 
 version = get_version()
-squid = Squid('ETH-USD')
-squid.run_websocket_app()
+while True:
+    try:
+        squid = Squid('ETH-USD')
+        squid.run_websocket_app()
+    except:
+        pass
     
         
