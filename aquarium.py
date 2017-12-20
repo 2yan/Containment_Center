@@ -30,7 +30,7 @@ def version_check():
     current_version = get_version()
     if current_version > version:
         log('Update to Version: {}'.format(current_version))
-	os.execv(sys.executable, ['python'] + sys.argv)
+        os.execv(sys.executable, ['python'] + sys.argv)
     if current_version == version: 
         return 
     
