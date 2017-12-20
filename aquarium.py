@@ -98,7 +98,7 @@ class Squid():
         self.log(str(error))
         
     def log(self, message):
-        with open(self.logfile, "w") as f:
+        with open(self.logfile, "a") as f:
             f.write(message)
         
         
@@ -143,7 +143,9 @@ while True:
     try:
         squid = Squid('ETH-USD')
         squid.run_websocket_app()
-    except:
+    except Exception as e:
+	with open('logfile') as f:
+		f.write(str(e))
         pass
     
         
