@@ -144,7 +144,7 @@ while True:
         squid = Squid('ETH-USD')
         squid.run_websocket_app()
     except Exception as e:
-	with open('logfile') as f:
+	with open('log.txt') as f:
 		f.write(str(e))
         pass
     
