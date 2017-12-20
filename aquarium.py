@@ -11,7 +11,8 @@ import sys
 
 def log(message):
     with open('log.txt', 'a') as f:
-	f.write(message)
+        f.write(datetime.now().isoformat())
+        f.write(message)
     return 
 
 def get_version():
@@ -100,7 +101,7 @@ class Squid():
         
     def on_error(self, ws, error):
         print('ERROR')
-        self.log(str(error))
+        log(str(error))
         
     def log(self, message):
         with open(self.logfile, "a") as f:
@@ -149,8 +150,7 @@ while True:
         squid = Squid('ETH-USD')
         squid.run_websocket_app()
     except Exception as e:
-	with open('log.txt') as f:
-		f.write(str(e))
+        log(str(e))
         pass
     
         
