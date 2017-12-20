@@ -45,7 +45,6 @@ class Squid():
     logfile = 'log.txt'
     
     def __init__(self, product_id, url ='https://api.gdax.com' ,  ws_url = "wss://ws-feed.gdax.com"):
-        
         version_check()
         self.product_id = product_id
         self.url = url
@@ -149,6 +148,7 @@ class Squid():
 version = get_version()
 while True:
     try:
+        log('I am trying my best')
         squid = Squid('ETH-USD')
         squid.run_websocket_app()
     except Exception as e:
