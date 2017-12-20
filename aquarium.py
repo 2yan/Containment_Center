@@ -140,11 +140,7 @@ class Squid():
         self.ws.run_forever()
 
 version = get_version()
-while True:
-    try:
-        squid = Squid('ETH-USD')
-        squid.run_websocket_app()
-    except:
-        pass
+squid = Squid('ETH-USD')
+squid.run_websocket_app()
     
         
