@@ -9,6 +9,10 @@ import os
 import sys
 
 
+def log(message):
+    with open('log.txt', 'a') as f:
+	f.write(message)
+    return 
 
 def get_version():
     while True:
@@ -24,7 +28,8 @@ def version_check():
     global version
     current_version = get_version()
     if current_version > version:
-        os.execv(sys.executable, ['python'] + sys.argv)
+        log('Update to Version: {}'.format(current_version))
+	os.execv(sys.executable, ['python'] + sys.argv)
     if current_version == version: 
         return 
     
