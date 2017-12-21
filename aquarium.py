@@ -151,6 +151,7 @@ if __name__ == '__main__':
     version = get_version()
     while True:
         try:
+            version_check()
             squid = Squid('ETH-USD')
             squid.run_websocket_app()
         except Exception as e:
