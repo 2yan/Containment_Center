@@ -13,7 +13,7 @@ def log(message):
     with open('log.txt', 'a') as f:
         f.write('\n')
         f.write(datetime.now().isoformat())
-        f.write('\n')
+        f.write('    :')
         f.write(message)
     return 
 
@@ -176,8 +176,8 @@ def enforce_data_types(product_id):
             for col in ['price', 'last_size']:
                 data[col] = pd.to_numeric(data[col])
         
-            for col in ['sequence', 'trade_id']:
-                data[col] = data[col].apply(int)
+            data['sequence'] = data['sequence'].apply(int)
+            data.index = data.index.map(int)
             
             data.to_sql( product_id, con, if_exists = 'replace')
             con.commit()
