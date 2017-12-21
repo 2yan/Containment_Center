@@ -100,11 +100,13 @@ class Squid():
     def on_close(self, ws):
         log('Stream Closed')
         print('_____________ CLOSED _____________')
-        
+        version_check()
+
     def on_error(self, ws, error):
         print('ERROR')
         log(str(error))
-        
+        version_check()
+
     def log(self, message):
         with open(self.logfile, "a") as f:
             f.write(message)
@@ -120,12 +122,12 @@ class Squid():
                     done = True
                 except sqlite3.OperationalError:
                     pass
-        version_check()
                 
         
     def on_message(self, ws, message):
+        version_check()
         message = json.loads(message)
-       
+         
         if message['type'] == 'ticker':
             self.messages.append(message)
             
@@ -134,7 +136,7 @@ class Squid():
             data = data[['price','last_size', 'sequence', 'side', 'time', 'trade_id']]
             data.set_index('trade_id', inplace = True)
             self.messages = []
-            data.drop(data['side'].isnull(), inplace = True)
+            data = data[~data['side'].isnull()]
             self.save_info(data)
         try:
             print( len(self.messages) ,'---' ,message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
