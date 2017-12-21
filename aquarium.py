@@ -54,7 +54,7 @@ class Squid():
         self.ws_url = ws_url
         self.last_message = datetime.now()
         self.time_difference = pd.to_datetime(self.get('/time').json()['iso']) - datetime.now()
-        
+        log('Squid Created')
                 
     def get(self, path, **params):
         #Requests passthrough, tries to avoid the too many requests code by adding pauses
@@ -97,9 +97,10 @@ class Squid():
                }
         
         self.ws.send(json.dumps(sub))
+        log('Subscription message sent')
         
     def on_close(self, ws):
-        log('Stream Closed')
+        log('_____________ CLOSED _____________')
         print('_____________ CLOSED _____________')
         version_check()
 
@@ -150,8 +151,10 @@ class Squid():
         except Exception as e:
             version_check()
             if message['type'] == 'subscriptions': 
+                log('Subscription Confirmed')
                 return
             if message['type'] == 'ticker':
+                log('First Message Recieved')
                 return
             log('unknown message:')
             log(repr(message))
@@ -195,7 +198,7 @@ def enforce_data_types(product_id):
 if __name__ == '__main__':
     version = get_version()
     
-    enforce_data_types('ETH-USD')
+    #enforce_data_types('ETH-USD')
     
     while True:
         try:
@@ -206,4 +209,3 @@ if __name__ == '__main__':
             log('Main Loop Exception' +repr(e))
             pass
     
-        

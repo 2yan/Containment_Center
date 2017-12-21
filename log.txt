@@ -58,3 +58,6 @@ Waiting For Bugfix Update.
 2017-12-21T08:50:01.823160
 Update to Version: 12.0
 2017-12-21T08:50:04.056920    :Data Type Enforced.
+2017-12-21T11:20:55.034024    :Data Type Enforced.
+2017-12-21T11:21:34.594980    :
+2017-12-21T11:21:34.595980    :Stream Closed
