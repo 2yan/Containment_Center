@@ -134,6 +134,13 @@ class Squid():
         if len(self.messages) > 100:
             data = pd.DataFrame(self.messages)
             data = data[['price','last_size', 'sequence', 'side', 'time', 'trade_id']]
+            
+            for col in ['price', 'last_size']:
+                data[col] = pd.to_numeric(data[col])
+            
+            for col in ['sequence', 'trade_id']:
+                data[col] = data[col].apply(int)
+                
             data.set_index('trade_id', inplace = True)
             self.messages = []
             data = data[~data['side'].isnull()]
@@ -159,8 +166,37 @@ class Squid():
                                     on_open= self.on_open)
         
         self.ws.run_forever()
+
+
+def enforce_data_types(product_id):
+    with sqlite3.connect('fire.db', check_same_thread = False) as con:
+        try:
+            data = pd.read_sql('select * from [{}]'.format(product_id), con, index_col = 'trade_id')
+            
+            for col in ['price', 'last_size']:
+                data[col] = pd.to_numeric(data[col])
+        
+            for col in ['sequence', 'trade_id']:
+                data[col] = data[col].apply(int)
+            
+            data.to_sql( product_id, con, if_exists = 'replace')
+            con.commit()
+            
+            log('Data Type Enforced.')
+        except Exception as e:
+            log('ERROR DURING DATA TYPE ENFORCE')
+            log(repr(e))
+            log('Waiting For Bugfix Update.')
+            while True:
+                version_check()
+            pass
+
+
 if __name__ == '__main__':
     version = get_version()
+    
+    enforce_data_types('ETH-USD')
+    
     while True:
         try:
             version_check()
