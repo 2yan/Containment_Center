@@ -11,7 +11,9 @@ import sys
 
 def log(message):
     with open('log.txt', 'a') as f:
+        f.write('\n')
         f.write(datetime.now().isoformat())
+        f.write('\n')
         f.write(message)
     return 
 
@@ -144,15 +146,14 @@ class Squid():
                                     on_open= self.on_open)
         
         self.ws.run_forever()
-
-version = get_version()
-while True:
-    try:
-        log('I am trying my best')
-        squid = Squid('ETH-USD')
-        squid.run_websocket_app()
-    except Exception as e:
-        log(str(e))
-        pass
+if __name__ == '__main__':
+    version = get_version()
+    while True:
+        try:
+            squid = Squid('ETH-USD')
+            squid.run_websocket_app()
+        except Exception as e:
+            log('Main Loop Exception' +str(e))
+            pass
     
         
