@@ -33,3 +33,9 @@ unknown message:
 unknown message:
 2017-12-20T17:57:30.523032
 {'type': 'subscriptions', 'channels': [{'name': 'ticker', 'product_ids': ['ETH-USD']}]}
+2017-12-20T18:01:37.042829
+Update to Version: 7.0
+2017-12-20T18:01:39.574688
+unknown message:
+2017-12-20T18:01:39.574969
+{'type': 'ticker', 'sequence': 1748842680, 'product_id': 'ETH-USD', 'price': '803.39000000', 'open_24h': '784.99000000', 'volume_24h': '247047.65818962', 'low_24h': '803.39000000', 'high_24h': '833.60000000', 'volume_30d': '9573925.70247494', 'best_bid': '803.37', 'best_ask': '803.38'}

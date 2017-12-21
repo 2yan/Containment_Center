@@ -134,12 +134,15 @@ class Squid():
             data = data[['price','last_size', 'sequence', 'side', 'time', 'trade_id']]
             data.set_index('trade_id', inplace = True)
             self.messages = []
+            data.drop(data['side'].isnull(), inplace = True)
             self.save_info(data)
         try:
             print( len(self.messages) ,'---' ,message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
         except Exception as e:
             if message['type'] == 'subscriptions': 
-                return 
+                return
+            if message['type'] == 'ticker':
+                return
             log('unknown message:')
             log(repr(message))
             print(repr(e))
