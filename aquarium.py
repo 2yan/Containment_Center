@@ -130,12 +130,12 @@ class Squid():
             
         if len(self.messages) > 100:
             data = pd.DataFrame(self.messages)
-            data = data[['price', 'sequence', 'side', 'time', 'trade_id']]
+            data = data[['price','size', 'sequence', 'side', 'time', 'trade_id']]
             data.set_index('trade_id', inplace = True)
             self.messages = []
             self.save_info(data)
         try:
-            print(message['price'])
+            print(message['price'], '  ---  ', message['size'])
         except:
             print(message)
         
