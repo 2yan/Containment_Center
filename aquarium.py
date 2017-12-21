@@ -31,6 +31,7 @@ def version_check():
     global version
     current_version = get_version()
     if current_version > version:
+        print('UPDATING NOW')
         log('Update to Version: {}'.format(current_version))
         os.execv(sys.executable, ['python3'] + sys.argv)
     if current_version == version: 
@@ -122,10 +123,9 @@ class Squid():
                     done = True
                 except sqlite3.OperationalError:
                     pass
-                
+        version_check() 
         
     def on_message(self, ws, message):
-        version_check()
         message = json.loads(message)
          
         if message['type'] == 'ticker':
@@ -141,6 +141,7 @@ class Squid():
         try:
             print( len(self.messages) ,'---' ,message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
         except Exception as e:
+            version_check()
             if message['type'] == 'subscriptions': 
                 return
             if message['type'] == 'ticker':

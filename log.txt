@@ -41,3 +41,9 @@ unknown message:
 {'type': 'ticker', 'sequence': 1748842680, 'product_id': 'ETH-USD', 'price': '803.39000000', 'open_24h': '784.99000000', 'volume_24h': '247047.65818962', 'low_24h': '803.39000000', 'high_24h': '833.60000000', 'volume_30d': '9573925.70247494', 'best_bid': '803.37', 'best_ask': '803.38'}
 2017-12-20T18:11:04.545899
 Update to Version: 8.0
+2017-12-20T18:20:09.215188
+
+2017-12-20T18:20:09.474857
+Stream Closed
+2017-12-20T18:22:47.177660
+Update to Version: 10.0
