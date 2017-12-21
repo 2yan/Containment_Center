@@ -125,6 +125,7 @@ class Squid():
         
     def on_message(self, ws, message):
         message = json.loads(message)
+       
         if message['type'] == 'ticker':
             self.messages.append(message)
             
@@ -135,8 +136,10 @@ class Squid():
             self.messages = []
             self.save_info(data)
         try:
-            print( message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
+            print( len(self.messages) ,'---' ,message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
         except Exception as e:
+            if message['type'] == 'subscriptions': 
+                return 
             log('unknown message:')
             log(repr(message))
             print(repr(e))

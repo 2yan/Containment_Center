@@ -3,3 +3,33 @@
 Update to Version: 2.0
 2017-12-20T17:44:14.569462
 Update to Version: 3.0
+2017-12-20T17:50:04.833662
+Update to Version: 4.0
+2017-12-20T17:50:07.373607
+unknown message:
+2017-12-20T17:50:07.373898
+{'type': 'ticker', 'sequence': 1748815288, 'product_id': 'ETH-USD', 'price': '804.00000000', 'open_24h': '777.13000000', 'volume_24h': '251384.63322818', 'low_24h': '804.00000000', 'high_24h': '833.60000000', 'volume_30d': '9572847.00646758', 'best_bid': '804.01', 'best_ask': '804.33'}
+2017-12-20T17:50:08.454461
+unknown message:
+2017-12-20T17:50:08.454723
+{'type': 'subscriptions', 'channels': [{'name': 'ticker', 'product_ids': ['ETH-USD']}]}
+2017-12-20T17:53:45.259081
+Update to Version: 5.0
+2017-12-20T17:53:47.749861
+unknown message:
+2017-12-20T17:53:47.750147
+{'type': 'ticker', 'sequence': 1748827912, 'product_id': 'ETH-USD', 'price': '803.36000000', 'open_24h': '775.03000000', 'volume_24h': '249954.68032662', 'low_24h': '803.36000000', 'high_24h': '833.60000000', 'volume_30d': '9573880.28987352', 'best_bid': '803.39', 'best_ask': '804.33'}
+2017-12-20T17:53:49.942605
+unknown message:
+2017-12-20T17:53:49.942864
+{'type': 'subscriptions', 'channels': [{'name': 'ticker', 'product_ids': ['ETH-USD']}]}
+2017-12-20T17:57:27.965801
+Update to Version: 6.0
+2017-12-20T17:57:30.514919
+unknown message:
+2017-12-20T17:57:30.515256
+{'type': 'ticker', 'sequence': 1748838185, 'product_id': 'ETH-USD', 'price': '803.41000000', 'open_24h': '775.00000000', 'volume_24h': '248926.61795427', 'low_24h': '803.41000000', 'high_24h': '833.60000000', 'volume_30d': '9574028.79862869', 'best_bid': '803.41', 'best_ask': '803.42'}
+2017-12-20T17:57:30.522837
+unknown message:
+2017-12-20T17:57:30.523032
+{'type': 'subscriptions', 'channels': [{'name': 'ticker', 'product_ids': ['ETH-USD']}]}
