@@ -61,3 +61,9 @@ Update to Version: 12.0
 2017-12-21T11:20:55.034024    :Data Type Enforced.
 2017-12-21T11:21:34.594980    :
 2017-12-21T11:21:34.595980    :Stream Closed
+2017-12-21T15:17:39.851333    :Stream Closed
+2017-12-21T15:17:39.851890    :Update to Version: 13.0
+2017-12-21T15:17:41.840683    :Squid Created
+2017-12-21T15:17:45.971931    :Subscription message sent
+2017-12-21T15:17:46.093732    :First Message Recieved
+2017-12-21T15:17:51.515786    :Subscription Confirmed
