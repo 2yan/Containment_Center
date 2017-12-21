@@ -32,7 +32,7 @@ def version_check():
     current_version = get_version()
     if current_version > version:
         log('Update to Version: {}'.format(current_version))
-        os.execv(sys.executable, ['python'] + sys.argv)
+        os.execv(sys.executable, ['python3'] + sys.argv)
     if current_version == version: 
         return 
     
@@ -130,12 +130,12 @@ class Squid():
             
         if len(self.messages) > 100:
             data = pd.DataFrame(self.messages)
-            data = data[['price','size', 'sequence', 'side', 'time', 'trade_id']]
+            data = data[['price','last_size', 'sequence', 'side', 'time', 'trade_id']]
             data.set_index('trade_id', inplace = True)
             self.messages = []
             self.save_info(data)
         try:
-            print(message['price'], '  ---  ', message['size'])
+            print(message['price'], '  ---  ', message['last_size'])
         except:
             print(message)
         
