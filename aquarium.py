@@ -135,8 +135,11 @@ class Squid():
             self.messages = []
             self.save_info(data)
         try:
-            print(message['price'], '  ---  ', message['last_size'])
-        except:
+            print( message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
+        except Exception as e:
+            log('unknown message:')
+            log(repr(message))
+            print(repr(e))
             print(message)
         
     def run_websocket_app(self):
