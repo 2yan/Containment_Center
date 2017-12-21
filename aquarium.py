@@ -98,6 +98,7 @@ class Squid():
         self.ws.send(json.dumps(sub))
         
     def on_close(self, ws):
+        log('Stream Closed')
         print('_____________ CLOSED _____________')
         
     def on_error(self, ws, error):
@@ -127,7 +128,7 @@ class Squid():
         if message['type'] == 'ticker':
             self.messages.append(message)
             
-        if len(self.messages) > 1000:
+        if len(self.messages) > 100:
             data = pd.DataFrame(self.messages)
             data = data[['price', 'sequence', 'side', 'time', 'trade_id']]
             data.set_index('trade_id', inplace = True)
@@ -153,7 +154,7 @@ if __name__ == '__main__':
             squid = Squid('ETH-USD')
             squid.run_websocket_app()
         except Exception as e:
-            log('Main Loop Exception' +str(e))
+            log('Main Loop Exception' +repr(e))
             pass
     
         
