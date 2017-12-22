@@ -36,7 +36,6 @@ def version_check():
         os.execv(sys.executable, ['python3'] + sys.argv)
     if current_version == version: 
         return 
-    
 
 class Squid():
     message = None
@@ -135,7 +134,8 @@ class Squid():
         if len(self.messages) > 100:
             data = pd.DataFrame(self.messages)
             data = data[['price','last_size', 'sequence', 'side', 'time', 'trade_id']]
-            
+            data = data[~data['side'].isnull()]
+
             for col in ['price', 'last_size']:
                 data[col] = pd.to_numeric(data[col])
             
@@ -144,7 +144,6 @@ class Squid():
                 
             data.set_index('trade_id', inplace = True)
             self.messages = []
-            data = data[~data['side'].isnull()]
             self.save_info(data)
         try:
             print( len(self.messages) ,'---' ,message['side'], '---' , round(float(message['price']), 2), '  ---  ', message['last_size'])
