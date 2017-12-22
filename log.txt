@@ -157,3 +157,96 @@ Update to Version: 12.0
 2017-12-22T09:49:06.268153    :_____________ CLOSED _____________
 2017-12-22T09:49:08.404010    :Squid Created
 2017-12-22T09:49:08.843524    :Subscription message sent
+2017-12-22T09:50:08.151342    :Connection is already closed.
+2017-12-22T09:50:08.152000    :_____________ CLOSED _____________
+2017-12-22T09:50:09.634122    :Squid Created
+2017-12-22T09:50:10.107585    :Subscription message sent
+2017-12-22T09:51:09.837683    :Connection is already closed.
+2017-12-22T09:51:09.838337    :_____________ CLOSED _____________
+2017-12-22T09:51:40.957509    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-22T09:52:12.055028    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-22T09:52:43.162842    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-22T09:52:44.630194    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:46.069617    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:47.259361    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:48.688703    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:50.167498    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:51.639725    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:53.116017    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:54.297799    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:55.767826    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:57.230428    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:52:58.692122    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:00.169224    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:01.627464    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:02.972692    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:04.445628    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:05.757453    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:08.074675    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:09.724885    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:11.200376    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:12.666138    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:14.134332    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:15.344301    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:16.821637    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:18.011218    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:19.458596    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:20.654252    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:21.834618    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:23.275595    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:24.726368    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:25.915397    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:27.101313    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:28.301565    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:30.079381    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:31.338748    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:32.522762    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:33.714789    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:35.178143    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:36.357627    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:37.550668    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:38.757458    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:40.223041    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:41.413541    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:42.598558    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:43.803485    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:44.996285    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-22T09:53:48.437262    :Squid Created
+2017-12-22T09:53:48.890139    :Subscription message sent
+2017-12-22T09:53:49.134215    :First Message Recieved
+2017-12-22T09:53:49.135264    :Subscription Confirmed
+2017-12-22T09:54:48.278626    :Connection is already closed.
+2017-12-22T09:54:48.279356    :_____________ CLOSED _____________
+2017-12-22T09:54:49.763503    :Squid Created
+2017-12-22T09:54:50.287204    :Subscription message sent
+2017-12-22T09:54:50.548542    :First Message Recieved
+2017-12-22T09:55:50.174042    :Subscription Confirmed
+2017-12-22T09:55:50.174837    :Connection is already closed.
+2017-12-22T09:55:50.175454    :_____________ CLOSED _____________
+2017-12-22T09:55:51.654394    :Squid Created
+2017-12-22T09:55:52.088881    :Subscription message sent
+2017-12-22T09:55:52.329989    :First Message Recieved
+2017-12-22T09:56:51.731886    :Subscription Confirmed
+2017-12-22T09:56:51.732683    :Connection is already closed.
+2017-12-22T09:56:51.733245    :_____________ CLOSED _____________
+2017-12-22T09:56:53.179718    :Squid Created
+2017-12-22T09:56:53.690048    :Subscription message sent
+2017-12-22T09:56:53.927719    :First Message Recieved
+2017-12-22T09:57:53.512706    :Subscription Confirmed
+2017-12-22T09:57:53.513474    :Connection is already closed.
+2017-12-22T09:57:53.514019    :_____________ CLOSED _____________
+2017-12-22T09:57:54.741183    :Squid Created
+2017-12-22T09:57:55.209519    :Subscription message sent
+2017-12-22T09:57:55.460337    :First Message Recieved
+2017-12-22T09:58:54.494642    :Subscription Confirmed
+2017-12-22T09:58:54.495506    :Connection is already closed.
+2017-12-22T09:58:54.496060    :_____________ CLOSED _____________
+2017-12-22T09:58:55.956555    :Squid Created
+2017-12-22T09:58:56.405108    :Subscription message sent
+2017-12-22T09:58:56.682843    :First Message Recieved
+2017-12-22T09:59:55.688569    :Subscription Confirmed
+2017-12-22T09:59:55.689362    :Connection is already closed.
+2017-12-22T09:59:55.689919    :_____________ CLOSED _____________
+2017-12-22T09:59:57.131320    :Squid Created
+2017-12-22T09:59:57.570148    :Subscription message sent
+2017-12-22T09:59:57.813735    :First Message Recieved
