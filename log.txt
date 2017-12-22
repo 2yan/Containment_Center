@@ -119,3 +119,41 @@ Update to Version: 12.0
 2017-12-22T09:39:12.229723    :_____________ CLOSED _____________
 2017-12-22T09:39:13.712704    :Squid Created
 2017-12-22T09:39:14.217267    :Subscription message sent
+2017-12-22T09:40:14.004813    :Connection is already closed.
+2017-12-22T09:40:14.005455    :_____________ CLOSED _____________
+2017-12-22T09:40:15.499728    :Squid Created
+2017-12-22T09:40:15.959055    :Subscription message sent
+2017-12-22T09:41:15.124032    :Connection is already closed.
+2017-12-22T09:41:15.124687    :_____________ CLOSED _____________
+2017-12-22T09:41:16.613192    :Squid Created
+2017-12-22T09:41:17.083299    :Subscription message sent
+2017-12-22T09:42:16.396728    :Connection is already closed.
+2017-12-22T09:42:16.397369    :_____________ CLOSED _____________
+2017-12-22T09:42:17.939435    :Squid Created
+2017-12-22T09:42:18.397193    :Subscription message sent
+2017-12-22T09:43:18.005486    :Connection is already closed.
+2017-12-22T09:43:18.006144    :_____________ CLOSED _____________
+2017-12-22T09:43:19.226545    :Squid Created
+2017-12-22T09:43:19.674328    :Subscription message sent
+2017-12-22T09:44:19.095336    :Connection is already closed.
+2017-12-22T09:44:19.095997    :_____________ CLOSED _____________
+2017-12-22T09:44:20.578280    :Squid Created
+2017-12-22T09:44:21.054653    :Subscription message sent
+2017-12-22T09:45:20.839406    :Connection is already closed.
+2017-12-22T09:45:20.840044    :_____________ CLOSED _____________
+2017-12-22T09:45:22.315601    :Squid Created
+2017-12-22T09:45:22.793911    :Subscription message sent
+2017-12-22T09:46:21.924848    :Connection is already closed.
+2017-12-22T09:46:21.925506    :_____________ CLOSED _____________
+2017-12-22T09:46:23.378205    :Squid Created
+2017-12-22T09:46:23.841292    :Subscription message sent
+2017-12-22T09:46:24.089769    :First Message Recieved
+2017-12-22T09:47:05.655420    :Subscription Confirmed
+2017-12-22T09:48:04.846984    :Connection is already closed.
+2017-12-22T09:48:04.847705    :_____________ CLOSED _____________
+2017-12-22T09:48:06.358076    :Squid Created
+2017-12-22T09:48:06.812843    :Subscription message sent
+2017-12-22T09:49:06.267496    :Connection is already closed.
+2017-12-22T09:49:06.268153    :_____________ CLOSED _____________
+2017-12-22T09:49:08.404010    :Squid Created
+2017-12-22T09:49:08.843524    :Subscription message sent
