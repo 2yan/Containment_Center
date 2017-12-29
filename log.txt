@@ -466,3 +466,9 @@ Update to Version: 12.0
 2017-12-28T16:29:34.699596    :Subscription message sent
 2017-12-28T16:29:34.973407    :First Message Recieved
 2017-12-28T16:29:34.974271    :Subscription Confirmed
+2017-12-28T19:58:47.171820    :Connection is already closed.
+2017-12-28T19:58:47.172483    :_____________ CLOSED _____________
+2017-12-28T19:58:48.674577    :Squid Created
+2017-12-28T19:58:49.154704    :Subscription message sent
+2017-12-28T19:58:49.426041    :First Message Recieved
+2017-12-28T19:58:53.700785    :Subscription Confirmed
