@@ -638,3 +638,10 @@ Update to Version: 12.0
 2017-12-30T04:13:54.774922    :Subscription message sent
 2017-12-30T04:13:55.084708    :First Message Recieved
 2017-12-30T04:14:07.582206    :Subscription Confirmed
+2017-12-30T04:45:53.698395    :Connection is already closed.
+2017-12-30T04:45:53.699060    :_____________ CLOSED _____________
+2017-12-30T04:45:57.397099    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-30T04:45:58.921249    :Squid Created
+2017-12-30T04:45:59.368128    :Subscription message sent
+2017-12-30T04:45:59.667212    :First Message Recieved
+2017-12-30T04:45:59.668218    :Subscription Confirmed
