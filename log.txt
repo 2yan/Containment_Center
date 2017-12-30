@@ -538,3 +538,75 @@ Update to Version: 12.0
 2017-12-29T23:08:26.074005    :Subscription message sent
 2017-12-29T23:08:26.377831    :First Message Recieved
 2017-12-29T23:09:05.597866    :Subscription Confirmed
+2017-12-29T23:11:31.195506    :Connection is already closed.
+2017-12-29T23:11:31.196175    :_____________ CLOSED _____________
+2017-12-29T23:12:02.292282    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:12:33.400204    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:12:38.828622    :Squid Created
+2017-12-29T23:12:39.288708    :Subscription message sent
+2017-12-29T23:12:39.585345    :First Message Recieved
+2017-12-29T23:13:39.254369    :Subscription Confirmed
+2017-12-29T23:13:39.256545    :Connection is already closed.
+2017-12-29T23:13:39.257110    :_____________ CLOSED _____________
+2017-12-29T23:13:40.450082    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:13:41.936779    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:14:13.044985    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:14:44.150674    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:14:45.659483    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:14:46.851748    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:15:17.972028    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:15:49.060274    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:16:20.190869    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:16:21.382604    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:22.837375    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:24.318868    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:25.793158    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:27.002033    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:28.202445    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:29.692938    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:30.885492    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:32.362982    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:33.850585    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:35.029419    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:36.232656    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:37.679270    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:39.143588    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:40.340720    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:41.528182    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:42.988767    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:44.189293    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:46.299636    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:47.750589    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:48.948295    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:50.142402    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:51.595256    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:53.067210    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:54.300648    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:55.766664    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:57.226282    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:58.687513    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:16:59.874752    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:01.062829    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:02.257591    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:03.436313    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:04.614900    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:05.805093    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:06.986431    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:08.182741    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:09.695970    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:10.890213    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:12.076035    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:13.276343    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:14.480143    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:15.678071    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:17:46.782963    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:18:17.897636    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:18:23.867656    :Squid Created
+2017-12-29T23:18:24.321891    :Subscription message sent
+2017-12-29T23:18:24.593995    :First Message Recieved
+2017-12-29T23:19:23.608434    :Subscription Confirmed
+2017-12-29T23:19:23.610585    :Connection is already closed.
+2017-12-29T23:19:23.611201    :_____________ CLOSED _____________
+2017-12-29T23:19:25.078348    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:19:26.557168    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:19:57.665592    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
