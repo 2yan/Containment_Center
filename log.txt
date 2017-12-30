@@ -610,3 +610,20 @@ Update to Version: 12.0
 2017-12-29T23:19:25.078348    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
 2017-12-29T23:19:26.557168    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
 2017-12-29T23:19:57.665592    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:20:28.775627    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-29T23:20:30.240118    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:31.438147    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:32.885813    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:34.104311    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:35.565537    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:37.326882    :Main Loop ExceptionJSONDecodeError('Expecting value: line 1 column 1 (char 0)',)
+2017-12-29T23:20:38.797238    :Squid Created
+2017-12-29T23:20:39.255848    :Subscription message sent
+2017-12-29T23:20:39.541305    :First Message Recieved
+2017-12-29T23:20:39.542267    :Subscription Confirmed
+2017-12-29T23:21:39.115960    :Connection is already closed.
+2017-12-29T23:21:39.116597    :_____________ CLOSED _____________
+2017-12-29T23:22:06.071036    :Squid Created
+2017-12-29T23:22:06.546289    :Subscription message sent
+2017-12-29T23:22:06.849494    :First Message Recieved
+2017-12-29T23:22:06.850339    :Subscription Confirmed
