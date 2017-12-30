@@ -670,3 +670,30 @@ Update to Version: 12.0
 2017-12-30T04:59:15.476035    :Subscription message sent
 2017-12-30T04:59:15.771731    :First Message Recieved
 2017-12-30T04:59:41.006369    :Subscription Confirmed
+2017-12-30T05:31:32.678758    :Connection is already closed.
+2017-12-30T05:31:32.679516    :_____________ CLOSED _____________
+2017-12-30T05:32:03.820347    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-30T05:32:09.620309    :Squid Created
+2017-12-30T05:32:10.103762    :Subscription message sent
+2017-12-30T05:32:10.448795    :First Message Recieved
+2017-12-30T05:32:53.754629    :Subscription Confirmed
+2017-12-30T05:34:31.104608    :Connection is already closed.
+2017-12-30T05:34:31.105271    :_____________ CLOSED _____________
+2017-12-30T05:34:32.810050    :Squid Created
+2017-12-30T05:34:33.272789    :Subscription message sent
+2017-12-30T05:34:33.544811    :First Message Recieved
+2017-12-30T05:34:33.545775    :Subscription Confirmed
+2017-12-30T05:35:43.801093    :Connection is already closed.
+2017-12-30T05:35:43.801754    :_____________ CLOSED _____________
+2017-12-30T05:35:45.299183    :Squid Created
+2017-12-30T05:35:45.760817    :Subscription message sent
+2017-12-30T05:35:46.052044    :First Message Recieved
+2017-12-30T05:36:45.776816    :Subscription Confirmed
+2017-12-30T05:36:45.778927    :Connection is already closed.
+2017-12-30T05:36:45.779653    :_____________ CLOSED _____________
+2017-12-30T05:37:16.892767    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-30T05:37:48.003237    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2017-12-30T05:37:49.479974    :Squid Created
+2017-12-30T05:37:49.945708    :Subscription message sent
+2017-12-30T05:37:50.364688    :First Message Recieved
+2017-12-30T05:37:50.514827    :Subscription Confirmed
