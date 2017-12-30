@@ -627,3 +627,8 @@ Update to Version: 12.0
 2017-12-29T23:22:06.546289    :Subscription message sent
 2017-12-29T23:22:06.849494    :First Message Recieved
 2017-12-29T23:22:06.850339    :Subscription Confirmed
+2017-12-30T00:32:16.778329    :_____________ CLOSED _____________
+2017-12-30T00:32:18.263011    :Squid Created
+2017-12-30T00:32:19.342540    :Subscription message sent
+2017-12-30T00:32:19.693811    :First Message Recieved
+2017-12-30T00:32:19.694866    :Subscription Confirmed
