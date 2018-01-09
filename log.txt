@@ -815,3 +815,12 @@ Update to Version: 12.0
 2018-01-08T23:48:57.532164    :_____________ CLOSED _____________
 2018-01-08T23:49:28.652684    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
 2018-01-08T23:49:59.758647    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:50:30.854289    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:51:01.995829    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:51:33.076391    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:52:04.178244    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:52:35.316782    :Main Loop ExceptionReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='api.gdax.com', port=443): Read timed out. (read timeout=30)",),)
+2018-01-08T23:52:36.771435    :Squid Created
+2018-01-08T23:52:37.250150    :Subscription message sent
+2018-01-08T23:52:37.601429    :First Message Recieved
+2018-01-08T23:52:42.619919    :Subscription Confirmed
